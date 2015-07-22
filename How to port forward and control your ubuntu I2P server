@@ -1,0 +1,12 @@
+If you are on a Window computer and want to control your Ubuntu I2P VPS Router,
+1) Install OpenSSH for Windows
+2) Restart Windows
+3) Open Command Prompt Window (Windows Key + R + Enter CMD)
+4) Use this command; ssh -f -N -L [Windows Port to use locally]:127.0.0.1:7657 [User SSH on VPS]@[VPS IP address]
+
+Replace the first brackets with the port on your windows computer you'd like to use. This is what you will type in Firefox to access your server i2p. 
+Replace the second brackets with the user login via ssh, normally can be "root" without quotes. 
+Replace the third brackets with the IP address for your VPS server.
+
+5) You will be prompted to enter your User login for the SSH user on your VPS
+6) Congratz! Now go to 127.0.0.1:[THE Windows port you entered before] with firefox and you should be able to control your vps i2p router
