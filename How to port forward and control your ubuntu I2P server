@@ -1,4 +1,13 @@
 If you are on a Window computer and want to control your Ubuntu I2P VPS Router,
+
+[EASY METHOD]
+1) Download Bitvise, which is super easy to port forward and has a terminal too! Download link here (https://www.bitvise.com/download-area) You want the Tunnelier one.
+2) Connect with the correct login into to your VPS
+3) Inside the C2S tab, enter the ports you want to forward (Such as 7657, 4444, etc..) both from and to 127.0.0.1
+4) Reconnect to start the tunnel. The tunnel will remain active as long as bitvise is on and working :)
+5) Anytime after that, just open bitvise and login, the tunnels should start automaticly if you SAVE A PROFILE. 
+
+[A bit harder way]
 1) Install OpenSSH for Windows
 2) Restart Windows
 3) Open Command Prompt Window (Windows Key + R + Enter CMD)
